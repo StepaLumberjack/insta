@@ -1,10 +1,3 @@
-//
-//  AuthenticationViewController.swift
-//  instagram-client-geekbrains
-//
-//  Created by Aleksandr Zhuravlev on 18/08/2018.
-//  Copyright © 2018 Aleksandr Zhuravlev. All rights reserved.
-//
 
 import UIKit
 import WebKit
@@ -15,7 +8,7 @@ class AuthenticationViewController: UIViewController {
     
     weak var delegate: AuthenticationViewControllerDelegate?
     
-    let clientId = "60a4de17aef34f1bb025eefe796cbfce"
+    let clientId = "d14d5d06cf424e38a2b565149d876887"
     let redirectURI = "https://instagram.com"
     override func viewDidLoad() {
         super.viewDidLoad()
